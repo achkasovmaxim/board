@@ -1,0 +1,45 @@
+.board-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 300px;
+}
+.flex-square {
+    flex-grow: 1;
+}
+.red {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.green {
+    color:  rgba(255, 230, 0, 0);
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+.blue {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+.yellow {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+.orange {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
+.black {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+.white {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}

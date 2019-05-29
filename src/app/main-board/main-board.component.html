@@ -1,0 +1,6 @@
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<div class='board-wrapper'>
+  <!-- <div (click)="changeColor(i)" class="{{square.color}} flexSquare" *ngFor="let square of squareConfig; let i = index;"></div> -->
+  <!-- Chi -->
+  <app-square [optionColor]="colors" [squareConfig]="squareConfig" (onClickSquare)="changeColor($event)"></app-square>
+</div>

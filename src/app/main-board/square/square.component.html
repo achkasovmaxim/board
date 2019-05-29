@@ -1,0 +1,10 @@
+<div>
+  <h1>Task #2</h1>
+  <div class="board">
+      <div class="{{square.color}}" mat-button [matMenuTriggerFor]="menu" *ngFor="let square of squareConfig; let i = index;"></div>
+      <mat-menu #menu="matMenu">
+          <button mat-menu-item *ngFor="let color of optionColor; let i = index;" (click)="clickOnSquare(i)">{{color | uppercase}}</button>
+        </mat-menu>
+  </div>
+</div>
+<!-- /*[matMenuTriggerData]="{name: 'Sally'}"*/ -->
